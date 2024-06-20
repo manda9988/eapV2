@@ -2,7 +2,7 @@
 
 ## Activité Type 1 - Développer la partie front-end d’une application web ou web mobile sécurisée
 
-| N° de la Compétence professionnelle                                                                 | Nom du parcours, challenge, exo, autre choisi | Lien(s) du repo du parcours/challenge/exo/autre choisi                         | Explique ton/tes choix                                             |
+| N° de la Compétence professionnelle                                                                 | Nom du pacours, challenge, exo, autre choisi | Lien(s) du repo du parcours/challenge/exo/autre choisi                         | Explique ton/tes choix                                             |
 | --------------------------------------------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
 | CP 1 - Installer et configurer son environnement de travail en fonction du projet web ou web mobile | eapFront                                      | [https://github.com/manda9988/eapFront](https://github.com/manda9988/eapFront) | Configuration de l'environnement de développement.                 |
 | CP 2 - Maquetter des interfaces utilisateur web ou web mobile                                       | eapFront                                      | [https://github.com/manda9988/eapFront](https://github.com/manda9988/eapFront) | Création de wireframes pour le projet.                             |
