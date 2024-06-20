@@ -1,0 +1,3 @@
+[submodule "eapFront"]
+	path = eapFront
+	url = https://github.com/manda9988/eapFront
