@@ -6,7 +6,7 @@ Comme tu le sais, tu vas devoir écrire un dossier professionnel pour passer ce 
 
 Pour te permettre d'aborder plus sereinement cette étape ☺️, je te propose de commencer par sélectionner les :
 
-- challenges,
+- challnges,
 - parcours,
 - exercices,
 - _activités professionnelles_...
