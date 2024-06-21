@@ -20,9 +20,9 @@ body {
 }
 
 h1 {
-  color: #bababa;
+  color: #e7e7e7;
   margin: 50px 0;
-  font-size: 3.2em;
+  font-size: 3.4em;
   font-weight: 500;
   letter-spacing: -4px;
 }
@@ -41,7 +41,7 @@ h1 {
 
 #quote {
   font-size: 18px;
-  color: #bcbcbc;
+  color: #c7c7c7;
   /* background: rgb(56, 56, 56); */
   border-radius: 4px;
   font-weight: 500;
@@ -51,23 +51,24 @@ h1 {
 button {
   font-size: 16px;
   font-weight: 700;
-  /* letter-spacing: -1px; */
-  background: hsl(258, 100%, 65%);
-  color: #e2e2e2;
+  background: linear-gradient(80deg, #57cf02 60%, rgb(252, 255, 47) 120%);
+
+  color: #ffffff;
   border: none;
   border-radius: 6px;
   cursor: pointer;
   text-transform: uppercase;
-  height: 50px;
-  width: 100px;
+  height: 36px;
+  width: 160px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 36px;
+  transition: transform 0.3s ease;
 }
 
 button:hover {
-  background: #753aff;
+  transform: scale(1.05); /* Légère augmentation de la taille du bouton */
 }
 
 footer {
@@ -83,8 +84,8 @@ footer {
 
 /* Text selection styling */
 ::selection {
-  background: #8c5aff;
-  color: #e6e6e6;
+  background: #57d100;
+  color: #ffffff;
 }
 
 /* Responsive design */
