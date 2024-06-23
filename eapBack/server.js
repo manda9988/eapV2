@@ -1,8 +1,13 @@
+//  server.js
+
 require("dotenv").config();
 const express = require("express");
+const cors = require("cors"); // Ajout du module CORS
 const { Pool } = require("pg");
 const app = express();
 const port = 3000;
+
+app.use(cors()); // Utilisation du middleware CORS
 
 const pool = new Pool({
   user: process.env.DB_USER,
