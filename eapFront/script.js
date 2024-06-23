@@ -1,19 +1,16 @@
 // script.js
 
-const quotes = [
-  "Le voyage de mille lieues commence par un pas.",
-  "Chaque matin est une nouvelle chance.",
-  "La paix vient de l'intérieur, ne la cherchez pas à l'extérieur.",
-  "Ralentir, c'est parfois avancer plus vite.",
-  "Le calme est la clé pour trouver la paix intérieure.",
-];
-
-function displayRandomQuote() {
-  const randomIndex = Math.floor(Math.random() * quotes.length);
-  document.getElementById("quote").textContent = quotes[randomIndex];
+async function fetchRandomQuote() {
+  try {
+    const response = await fetch("http://localhost:3000/quote");
+    const data = await response.json();
+    document.getElementById("quote").textContent = data.text;
+  } catch (error) {
+    console.error("Error fetching quote:", error);
+  }
 }
 
-document.getElementById("btn").addEventListener("click", displayRandomQuote);
+document.getElementById("btn").addEventListener("click", fetchRandomQuote);
 
 // Affiche une citation dès le chargement de la page
-window.onload = displayRandomQuote;
+window.onload = fetchRandomQuote;
