@@ -42,10 +42,10 @@ h1 {
 #quote {
   font-size: 18px;
   color: #c7c7c7;
-  /* background: rgb(56, 56, 56); */
   border-radius: 4px;
   font-weight: 500;
   padding: 20px;
+  text-align: center;
 }
 
 button {
