@@ -21,7 +21,7 @@ body {
 
 h1 {
   color: #e7e7e7;
-  margin: 50px 0 40px;
+  margin: 50px 0 32px;
   font-size: 3.4em;
   font-weight: 900;
   letter-spacing: -2px;
@@ -51,15 +51,14 @@ h1 {
 button {
   font-size: 16px;
   font-weight: 700;
-  background: linear-gradient(80deg, #57cf02 60%, rgb(252, 255, 47) 120%);
-
+  background: linear-gradient(30deg, #57cf02 70%, rgb(252, 255, 47) 120%);
   color: #ffffff;
   border: none;
   border-radius: 6px;
   cursor: pointer;
   text-transform: uppercase;
-  height: 36px;
-  width: 160px;
+  height: 40px;
+  width: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,24 +67,23 @@ button {
 }
 
 button:hover {
-  transform: scale(1.05); /* Légère augmentation de la taille du bouton */
+  transform: scale(1.05);
 }
 
 footer {
-  margin-bottom: 2px;
   padding: 10px 0;
   text-align: center;
   color: #bababa;
   font-weight: 100;
-  font-size: 0.75em;
+  font-size: 0.7em;
   position: absolute;
   bottom: 0;
 }
 
 /* Text selection styling */
 ::selection {
-  background: #57d100;
-  color: #ffffff;
+  background: #ebebeb;
+  color: #262626;
 }
 
 /* Responsive design */
