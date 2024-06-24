@@ -53,8 +53,65 @@ eapV2/
    ```
 
 4. Démarrez le serveur:
+
    ```sh
    node server.js
+   ```
+
+## Configuration PostgreSQL
+
+1. **Accédez à PostgreSQL**:
+
+   ```sh
+   psql -U vincentachy -W quotes_db
+   ```
+
+2. **Accordez les permissions nécessaires**:
+
+   ```sql
+   GRANT SELECT, INSERT, UPDATE, DELETE ON TABLE quotes TO postgres;
+   ```
+
+3. **Vérifiez les données**:
+   ```sql
+   SELECT * FROM quotes;
+   ```
+
+### Création et configuration de la base de données PostgreSQL
+
+1. **Créer l'utilisateur PostgreSQL**:
+
+   ```sql
+   CREATE USER vincentachy WITH PASSWORD 'your_password';
+   ```
+
+2. **Créer la base de données**:
+
+   ```sql
+   CREATE DATABASE quotes_db;
+   ```
+
+3. **Connecter l'utilisateur à la base de données**:
+
+   ```sql
+   GRANT ALL PRIVILEGES ON DATABASE quotes_db TO vincentachy;
+   ```
+
+4. **Créer la table pour les citations**:
+
+   ```sql
+   CREATE TABLE quotes (
+       id SERIAL PRIMARY KEY,
+       text TEXT NOT NULL
+   );
+   ```
+
+5. **Insérer des données initiales**:
+   ```sql
+   INSERT INTO quotes (text) VALUES
+   ('Le voyage de mille lieues commence par un pas.'),
+   ('Chaque matin est une nouvelle chance.'),
+   ('Le calme est la clé pour trouver la paix intérieure.');
    ```
 
 ## Utilisation
