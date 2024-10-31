@@ -4,22 +4,6 @@
 
 eapQuote est une application web permettant d'afficher des citations aléatoires en utilisant un serveur Node.js et une interface web simple.
 
-## Structure du projet
-
-eapV2/
-├── eapBack
-│   ├── package-lock.json
-│   ├── package.json
-│   └── server.js
-├── eapDoc
-│   ├── README.md
-│   ├── eap.md
-│   └── exemples-eap.md
-└── eapFront
-├── index.html
-├── script.js
-└── styles.css
-
 ## Prérequis
 
 - Node.js installé
